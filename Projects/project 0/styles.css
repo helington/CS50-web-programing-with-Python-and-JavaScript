@@ -1,0 +1,108 @@
+body, input, button {
+    background: #202124;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #bdc1c6;
+}
+
+.image {
+
+    position: relative;
+}
+
+.image_text {
+    color: #4487f6;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    left: 215px;
+    bottom: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.querry {
+    padding: 20px;
+}
+
+form {
+    padding: 20px;
+}
+
+.text_area {
+    min-height: 44px;
+    max-height: 48px;
+    border: 1px solid #5f6368;
+    box-shadow: none;
+    margin: 0 auto;
+    border-radius: 24px;
+    width: auto;
+    max-width: 584px;
+
+}
+
+.text_area:hover {
+    background-color: #303134;
+    box-shadow: 0 1px 6px 0 #171717;
+    border-color: rgba(223,225,229,0);
+}
+
+.inside_text_area {
+    display: flex;
+    padding: 5px 8px 0 14px;
+}
+
+.search_logo {
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+    height: 46px;
+}
+
+#text_area {
+    outline: none;
+    background-color: transparent;
+    font-family: arial,sans-serif;
+    line-height: 22px;
+    margin-bottom: 8px;
+    border: none;
+    display: flex;
+    flex: 100%;
+    font-size: 16px;
+}
+
+svg {
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    color: #bdc1c6;
+}
+
+.buttons_area {
+    height: 70px;
+    padding-top: 18px;
+    display: block;
+}
+
+.submit_buttons {
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.submit_buttons:hover {
+    box-shadow: 0 1px 3px rgba(23,23,23,0.24);
+    background-color: #303134;
+    border: 1px solid #5f6368;
+    color: #e8eaed;
+}
