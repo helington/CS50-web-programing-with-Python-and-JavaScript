@@ -6,7 +6,10 @@
 
 {% block body %}
     <div>
-        {{entry}}
+        {{entry | safe}}
+    </div>
+    <div>
+        <a href="/edit/{{title}}">Edit page</a>
     </div>
 
 {% endblock %}

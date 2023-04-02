@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: white;
+    background-color: black;
 }
 
 code {
@@ -12,7 +12,10 @@ h1 {
     padding-top: 20px;
 }
 
-
+textarea {
+    height: 30vh;
+    width: 80%;
+}
 
 .main {
     padding: 10px;
